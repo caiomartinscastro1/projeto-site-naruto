@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Naruto";
+    src: url(fonts/njnaruto.ttf); 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@600&display=swap');
+
+/*Gerais*/
+
+/* cor do header #fbe407*/
+/*cor do titulo e links*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #f2a30b;
+    background-image: url("imagens/fundo.png");
+}
+
+p{
+    font-size: 20px;
+}
+/*Header*/
+
+header{
+    background-color: black;
+    box-shadow: 0px 2px 4px black;
+}
+
+header>h1{
+    text-align: center;
+    font-family: Naruto;
+    padding: 40px;
+    color: #f2a30b;
+}
+
+/*nav*/
+
+nav{
+    padding: 20px;
+    margin: auto;
+    width:800px;
+    text-align: center;
+}
+
+nav a{
+    padding: 10px 20px;
+    margin: 5px 10px;
+    text-decoration: none;
+    color: #f2a30b ;
+    font-family: 'Georama', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+a:hover{
+    background-color: #f2a30b;
+    border-radius: 10px;
+    color: #fbe407;
+}
+
+/*main*/
+
+main{
+    background-color:#ffe182;
+    min-width: 300px;
+    max-width: 1200px;
+    margin:auto;
+    box-shadow: 0px 0px 9px black;
+    color: black;
+   
+    
+}
+
+
+.descricao{
+    width: 800px;
+    text-align:justify ;
+    margin: 10px;
+    margin-bottom: 70px;
+}
+
+
+main h2{
+    font-family: Naruto;
+    font-size: 20px;
+    text-align:center;
+    padding: 20px;
+    text-shadow: 2px 2px 2px black;
+    color: #d48a00;
+}
+
+main h3{
+    font-family: Naruto;
+    padding: 20px;
+    text-shadow: 2px 2px 2px black;
+    color: #d48a00;
+}
+
+
+main a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px ;
+}
+
+main a:hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+div.videos{
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+div.conteudo{
+    width: 900px;
+    margin: auto;
+}
+
+div.conteudo p{
+    text-indent: 20px;
+    line-height: 30px;
+    font-family: 'Georama', sans-serif;;
+    text-align: justify;
+}
+
+ul{
+    margin: auto;
+    width: 200px;
+    padding: 20px;
+    list-style: square;
+}
+
+li{
+    font-size: 20px;
+}
+
+div#bibliografia>a{
+    margin-bottom: 40px;
+}
+
+#contato{
+    margin: auto;
+    width: 200px;
+}
+
+#letras{
+    width: 400px;
+    margin: auto;
+}
+
+#letras p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.descricao{
+
+}
+/*footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+footer#escroto{
+    min-width: 300px;
+    max-width: 1200px;
+    margin:auto;
+    padding: 5px 0.4px;
+}
+
+footer#sobre{
+    min-width: 300px;
+    max-width: 1200px;
+    margin:auto;
+    padding: 5px 0.5px;
+}
+
+footer#bibliografia{
+    min-width: 300px;
+    max-width: 1200px;
+    margin:auto;
+    padding: 5px 0.5px;
+}
+
+
+
+
+
+
